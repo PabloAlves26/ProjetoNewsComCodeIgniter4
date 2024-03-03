@@ -29,10 +29,11 @@ Replace -> Port number [e.g. 4321]
   <h3 align="center" id="bio">Tutorial do CodeIgniter 4</h3>
 
   <p align="center">
-    Short project description
+    The News project with the CodeIgniter 4 framework allows for the practical implementation of a back end structure in a way that allows updating and correcting possible bugs. Project reproduced from the Official CodeIgniter 4 Documentation. 
+    Two Pages Where one contains a form to add news information and the news title. The second page is used to view the news saved in the database.
     <br />
     <a href="#">Demo</a>
-    <a href="https://github.com/PabloAlves26/<REPO_NAME>/issues">Report Bug</a>
+    <a href="https://github.com/PabloAlves26/<ProjetoNewsComCodeIgniter4>/issues">Report Bug</a>
   </p>
 </p>
 
