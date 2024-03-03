@@ -76,9 +76,9 @@ Detailed project description
 
 Technologies used in the project.
 
-### Libraries
+<!--### Libraries
 
-<!--> - [example.js](https://example.js)
+ [example.js](https://example.js)
   Brief description explaining what the library does-->
 
 <!-- - [example2.js](https://example2.js)
@@ -109,10 +109,10 @@ Almost everything is set in CodeIgniter. Just connect your database!
 ### Technologies
 
 - [HTML5](https://www.w3.org/TR/2014/REC-html5-20141028/)
-  HTML5 (Hypertext Markup Language, versao 5) e uma linguagem de marcacao para a World Wide Web e e uma tecnologia chave da Internet, originalmente proposto por Opera Software. E a quinta versao da linguagem HTML. Esta nova versao traz consigo importantes mudancas quanto ao papel do HTML no mundo da Web
+HTML5 (Hypertext Markup Language, versao 5) e uma linguagem de marcacao para a World Wide Web e e uma tecnologia chave da Internet,originalmente proposto por Opera Software. E a quinta versao da linguagem HTML. Esta nova versao traz consigo importantes mudancas quanto ao papel do HTML no mundo da Web
 
   - [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
- CSS3 e a terceira mais nova versao das famosas Cascading Style Sheets (ou simplesmente CSS), pela qual se define estilos para um projeto web (pagina de internet). Com efeitos de transicao, imagem, imagem de fundo/background e outros, pode-se criar estilos unicos para seus projetos web, alterando diversos aspectos de design no layout da pagina.
+CSS3 e a terceira mais nova versao das famosas Cascading Style Sheets (ou simplesmente CSS), pela qual se define estilos para um projeto web (pagina de internet). Com efeitos de transicao, imagem, imagem de fundo/background e outros, pode-se criar estilos unicos para seus projetos web, alterando diversos aspectos de design no layout da pagina.
 
   - [PHP](https://www.php.net/)
 PHP (um acronimo recursivo para "PHP: Hypertext Preprocessor", originalmente Personal Home Page) e uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicacoes presentes e atuantes no lado do servidor, capazes de gerar conteudo dinamico na World Wide Web.
