@@ -1,59 +1,197 @@
-# CodeIgniter 4 Framework
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-## What is CodeIgniter?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+<!-- 
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+CTRL + H
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+Find    -> <REPO_NAME>
+Replace -> Repo name   [e.g. Portfolio]
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
 
-## Important Change with index.php
+Find    -> <PORT>
+Replace -> Port number [e.g. 4321]
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+-->
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+<!-- PROJECT LOGO -->
+<br />
+<samp>
+<p align="center">
+  <a href="https://github.com/PabloAlves26/<ProjetoNewsComCodeIgniter4>">
+    <img src="./public/assets/logo.svg" alt="Logo" width="100" height="80">
+  </a>
 
-**Please** read the user guide for a better explanation of how CI4 works!
+  <h3 align="center" id="bio">Tutorial do CodeIgniter 4</h3>
 
-## Repository Management
+  <p align="center">
+    Short project description
+    <br />
+    <a href="#">Demo</a>
+    <a href="https://github.com/PabloAlves26/<REPO_NAME>/issues">Report Bug</a>
+  </p>
+</p>
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+| Descriptive screenshot name                      |
+| ------------------------------------------------ |
+| [![Preview][project-screenshot]][project-link]   |
+| Brief additional context                         |
+
+<hr>
+
+Detailed project description
+
+### Built With
+
+Technologies used in the project.
+
+### Libraries
+
+<!--> - [example.js](https://example.js)
+  Brief description explaining what the library does-->
+
+<!-- - [example2.js](https://example2.js)
+  Brief description explaining what the library does -->
+
+### Frameworks
+
+- [example](https://www.codeigniter.com/user_guide/intro/index.html)
+  Why CodeIgniter?
+Framework with a small footprint
+CodeIgniter 4 is a 1.1MB download, plus 1.6MB for the user guide (epub).Exceptional performance
+CodeIgniter consistently outperforms most of its competitors.
+Simple solutions over complexity
+CodeIgniter encourages MVC, but does not force it on you.Strong Security
+We take security seriously, with built-in protection against CSRF and XSS attacks. Version 4 adds context-sensitive escaping and CSP
+Clear documentation
+The User Guide contains an introduction, tutorial, a number of "how to" guides, and then reference documentation for the components that make up the framework.Nearly zero configuration
+Almost everything is set in CodeIgniter. Just connect your database!
+
+<!--- [example](https://example.com/)
+  Brief description explaining what the framework does -->
+
+<!--### Plugins
+
+ [@example](https://example.com/)
+  Brief description explaining what the plugin does -->
+
+### Technologies
+
+- [HTML5](https://www.w3.org/TR/2014/REC-html5-20141028/)
+  HTML5 (Hypertext Markup Language, versao 5) e uma linguagem de marcacao para a World Wide Web e e uma tecnologia chave da Internet, originalmente proposto por Opera Software. E a quinta versao da linguagem HTML. Esta nova versao traz consigo importantes mudancas quanto ao papel do HTML no mundo da Web
+
+  - [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
+ CSS3 e a terceira mais nova versao das famosas Cascading Style Sheets (ou simplesmente CSS), pela qual se define estilos para um projeto web (pagina de internet). Com efeitos de transicao, imagem, imagem de fundo/background e outros, pode-se criar estilos unicos para seus projetos web, alterando diversos aspectos de design no layout da pagina.
+
+  - [PHP](https://www.php.net/)
+PHP (um acronimo recursivo para "PHP: Hypertext Preprocessor", originalmente Personal Home Page) e uma linguagem interpretada livre, usada originalmente apenas para o desenvolvimento de aplicacoes presentes e atuantes no lado do servidor, capazes de gerar conteudo dinamico na World Wide Web.
+
+<!--### Other things (if necessary)-->
+
+<!-- GETTING STARTED -->
+
+## Installation
+
+1. Clone the repo
+
+   ```sh
+   git clone https://github.com/PabloAlves26<ProjetoNewsComCodeIgniter4>.git
+   ```
+
+<!--2. Install dependencies (you can use npm, pnpm, yarn or anything else)
+
+   ```sh
+   pnpm i
+   ```-->
+
+2. In the project directory, you can run with the following
+
+   Documents/
+
+3. If the URL does not open automatically, access this link in your browser.
+
+  localhost:8080/news/
+
+<!--4. To access on your smartphone, use the same network and replace `localhost` with the machine address. `e.g. http://10.0.0.38:<PORT>`
+
+   ```
+     IPv4 Address: 10.0.0.38
+     Port: <PORT>
+     Access URL: http://10.0.0.38:<PORT>
+   ``` -->
+
+   <!-- CONTRIBUTING -->
 
 ## Contributing
 
-We welcome contributions from the community.
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Server Requirements
+<!-- LICENSE -->
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+## License
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-> **Warning**
-> The end of life date for PHP 7.4 was November 28, 2022. If you are
-> still using PHP 7.4, you should upgrade immediately. The end of life date
-> for PHP 8.0 will be November 26, 2023.
+<!-- CONTACT -->
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+## Contact
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+PabloLuciano - [@jinuye1](https://pabloalves26.github.io/portfoliopro/) - pablo26alves@gmail.com
+
+Project Link: [https://github.com/ProjetNewsComCodeIgniter4/<ProjetoNewsComCodeIgniter4>](https://github.com/PabloAlves26/<ProjetoNewsComCodeIgniter4>) <br>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/PabloAlves26/<REPO_NAME>.svg?style=for-the-badge
+[contributors-url]: https://github.com/PabloAlves26/<REPO_NAME>/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PabloAlves26/<REPO_NAME>.svg?style=for-the-badge
+[forks-url]: https://github.com/PabloAlves26/<REPO_NAME>/network/members
+[stars-shield]: https://img.shields.io/github/stars/PabloAlves26/<REPO_NAME>.svg?style=for-the-badge
+[stars-url]: https://github.com/PabloAlves26/<REPO_NAME>/stargazers
+[issues-shield]: https://img.shields.io/github/issues/PabloAlves26/<REPO_NAME>.svg?style=for-the-badge
+[issues-url]: https://github.com/PabloAlves26/<REPO_NAME>/issues
+[license-shield]: https://img.shields.io/github/license/PabloAlves26/<REPO_NAME>.svg?style=for-the-badge
+[license-url]: https://github.com/PabloAlves26/<REPO_NAME>/blob/master/LICENSE
+[license-url]: https://github.com/PabloAlves26/<REPO_NAME>/blob/master/LICENSE.txt
+[project-screenshot]: ./public/screenshots/preview.png
+[project-link]: https://example.vercel.app
+
+<br><hr>
+[🔼 Back to top](#project-name)
