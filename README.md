@@ -73,10 +73,9 @@ Replace -> Port number [e.g. 4321]
 
 ## Details about the database
 
-| Main image of the project                     |
+| Main image of the database                    |
 | ------------------------------------------------ |
 | <center><img src="./public/assets/banco.png" alt="banco de dados" width="300" height="240"></center>   |
-| <br>                                               |
 |                          |
 
 <hr>
@@ -133,7 +132,7 @@ Technologies used in the project.
 
 ### Frameworks
 
-- [example](https://www.codeigniter.com/user_guide/intro/index.html)
+- [CodeIgniter 4](https://www.codeigniter.com/user_guide/intro/index.html)
   Why CodeIgniter?
 Framework with a small footprint
 CodeIgniter 4 is a 1.1MB download, plus 1.6MB for the user guide (epub).Exceptional performance
