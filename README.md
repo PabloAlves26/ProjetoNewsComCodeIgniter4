@@ -221,7 +221,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 PabloLuciano - [Pablo Luciano](https://pabloalves26.github.io/portfoliopro/) - pablo26alves@gmail.com
 
-Project Link: [https://github.com/ProjetNewsComCodeIgniter4/<ProjetoNewsComCodeIgniter4>](https://github.com/PabloAlves26/ProjetoNewsComCodeIgniter4>) <br>
+Project Link: [https://github.com/ProjetNewsComCodeIgniter4/<ProjetoNewsComCodeIgniter4>](https://github.com/PabloAlves26/ProjetoNewsComCodeIgniter4) <br>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
