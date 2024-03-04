@@ -67,11 +67,11 @@ Replace -> Port number [e.g. 4321]
 | ------------------------------------------------ |
 | <center><img src="./public/assets/sucesso.png" alt="sucesso" width="300" height="240"></center>   |
 | <br>                                               |
-| Brief additional context                         |
+|                         |
 
 <hr>
 
-## About The Project
+## Details about the database
 
 | Main image of the project                     |
 | ------------------------------------------------ |
