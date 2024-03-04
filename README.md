@@ -77,7 +77,7 @@ Replace -> Port number [e.g. 4321]
 | ------------------------------------------------ |
 | <center><img src="./public/assets/banco.png" alt="banco de dados" width="300" height="240"></center>   |
 | <br>                                               |
-| Brief additional context                         |
+|                          |
 
 <hr>
 
