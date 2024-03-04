@@ -9,7 +9,7 @@
 
 CTRL + H
 
-Find    -> <REPO_NAME>
+Find    -> <https://pabloalves26.github.io/portfoliopro/>
 Replace -> Repo name   [e.g. Portfolio]
 
 
@@ -65,20 +65,57 @@ Replace -> Port number [e.g. 4321]
 
 | Descriptive screenshot name                      |
 | ------------------------------------------------ |
-| [![Preview][project-screenshot]][project-link]   |
+| [![Preview][project-screenshot]][<img src="./public/assets/sucesso.png" alt="Logo" width="100" height="80">]   |
+| [![Preview][project-screenshot]][<img src="./public/assets/banco.png" alt="Logo" width="100" height="80">]   |
 | Brief additional context                         |
 
 <hr>
 
 Detailed project description
 
+The project aims to perform a query in the database and display the information found there.
+
+First of all, it is important to make it clear that as the project will be done with the CodeIgniter framework, it will be important to carry out the basic configurations for the CI to work.
+Are they...
+
+Perform mode switching
+
+from "production" to "developer" in .env file
+
+Rename the env file to .env if not.
+
+After downloading the CI4 project with all its folders. You will need to install a software package such as Xampp or another one of your choice. Must install PHP 8 or higher.
+PHP must be in the Windows environment variables.
+PHP must have its php.ini file
+with the following lines uncommented.
+By uncommenting the lines...
+
+extension=openssl
+extension=curl
+extension=mbstring
+extension=intl
+
+Save the file and restart Xampp.
+To connect to the Database the following files can be edited, they are Database.php or .env.
+
+To test, you can type the following in the URL of your web browser...
+
+localhost:8080
+Show codeigniter welcome page
+
+localhost:8080/home
+shows a simple, static test page
+
+localhost:8080/news
+Show the pronejo News page
+
 ### Built With
 
 Technologies used in the project.
 
-<!--### Libraries
+!<!--### Libraries-->
 
- [example.js](https://example.js)
+ <!--[example.js](https://example.js)
   Brief description explaining what the library does-->
 
 <!-- - [example2.js](https://example2.js)
@@ -180,17 +217,17 @@ Project Link: [https://github.com/ProjetNewsComCodeIgniter4/<ProjetoNewsComCodeI
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/PabloAlves26/<REPO_NAME>.svg?style=for-the-badge
-[contributors-url]: https://github.com/PabloAlves26/<REPO_NAME>/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/PabloAlves26/<REPO_NAME>.svg?style=for-the-badge
-[forks-url]: https://github.com/PabloAlves26/<REPO_NAME>/network/members
-[stars-shield]: https://img.shields.io/github/stars/PabloAlves26/<REPO_NAME>.svg?style=for-the-badge
-[stars-url]: https://github.com/PabloAlves26/<REPO_NAME>/stargazers
-[issues-shield]: https://img.shields.io/github/issues/PabloAlves26/<REPO_NAME>.svg?style=for-the-badge
-[issues-url]: https://github.com/PabloAlves26/<REPO_NAME>/issues
-[license-shield]: https://img.shields.io/github/license/PabloAlves26/<REPO_NAME>.svg?style=for-the-badge
-[license-url]: https://github.com/PabloAlves26/<REPO_NAME>/blob/master/LICENSE
-[license-url]: https://github.com/PabloAlves26/<REPO_NAME>/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>.svg?style=for-the-badge
+[contributors-url]: https://github.com/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>.svg?style=for-the-badge
+[forks-url]: https://github.com/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>/network/members
+[stars-shield]: https://img.shields.io/github/stars/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>.svg?style=for-the-badge
+[stars-url]: https://github.com/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>/stargazers
+[issues-shield]: https://img.shields.io/github/issues/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>.svg?style=for-the-badge
+[issues-url]: https://github.com/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>/issues
+[license-shield]: https://img.shields.io/github/license/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>.svg?style=for-the-badge
+[license-url]: https://github.com/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>/blob/master/LICENSE
+[license-url]: https://github.com/PabloAlves26/<https://pabloalves26.github.io/portfoliopro/>/blob/master/LICENSE.txt
 [project-screenshot]: ./public/screenshots/preview.png
 [project-link]: https://example.vercel.app
 
