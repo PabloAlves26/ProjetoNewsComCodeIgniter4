@@ -98,18 +98,7 @@ PHP must be in the Windows environment variables.
 PHP must have its php.ini file
 with the following lines uncommented.
 By uncommenting the lines...
- ```sh
-extension=openssl
- ```
- ```sh
-extension=curl
-```
- ```sh
-extension=mbstring
- ```
- ```sh
-extension=intl
- ```
+
 
 Save the file and restart Xampp.
 To connect to the Database the following files can be edited, they are Database.php or .env.
