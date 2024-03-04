@@ -99,10 +99,16 @@ PHP must have its php.ini file
 with the following lines uncommented.
 By uncommenting the lines...
  ```sh
-extension=openssl<br>
-extension=curl<br>
-extension=mbstring<br>
-extension=intl<br>
+extension=openssl
+ ```
+ ```sh
+extension=curl
+```
+ ```sh
+extension=mbstring
+ ```
+ ```sh
+extension=intl
  ```
 
 Save the file and restart Xampp.
