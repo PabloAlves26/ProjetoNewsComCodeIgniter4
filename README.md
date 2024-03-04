@@ -71,6 +71,16 @@ Replace -> Port number [e.g. 4321]
 
 <hr>
 
+## About The Project
+
+| Main image of the project                     |
+| ------------------------------------------------ |
+| <center><img src="./public/assets/banco.png" alt="banco de dados" width="300" height="240"></center>   |
+| <br>                                               |
+| Brief additional context                         |
+
+<hr>
+
 Detailed project description
 
 The project aims to perform a query in the database and display the information found there.
