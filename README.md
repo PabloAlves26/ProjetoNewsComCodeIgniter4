@@ -179,7 +179,7 @@ PHP (um acronimo recursivo para "PHP: Hypertext Preprocessor", originalmente Per
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/PabloAlves26<ProjetoNewsComCodeIgniter4>.git
+   git clone https://github.com/PabloAlves26<ProjetoNewsComCodeIgniter4.git
    ```
 
 <!--2. Install dependencies (you can use npm, pnpm, yarn or anything else)
