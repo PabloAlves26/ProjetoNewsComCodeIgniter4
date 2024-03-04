@@ -99,10 +99,10 @@ PHP must have its php.ini file
 with the following lines uncommented.
 By uncommenting the lines...
 
-extension=openssl
-extension=curl
-extension=mbstring
-extension=intl
+extension=openssl<br>
+extension=curl<br>
+extension=mbstring<br>
+extension=intl<br>
 
 Save the file and restart Xampp.
 To connect to the Database the following files can be edited, they are Database.php or .env.
