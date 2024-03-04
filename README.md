@@ -64,13 +64,6 @@ Replace -> Port number [e.g. 4321]
 ## About The Project
 
 | Main image of the project                     |
-| ------------------------------------------------ |                                    |
-| <img src="./public/assets/banco.png" alt="Banco" width="100" height="80">   |
-| Brief additional context                         |
-
-<hr>
-
-| Main image of the project                     |
 | ------------------------------------------------ |
 | <img src="./public/assets/sucesso.png" alt="sucesso" width="100" height="80">   |
 | <br>                                               |
